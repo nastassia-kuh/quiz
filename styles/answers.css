@@ -1,0 +1,38 @@
+.answers {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.answers-pre-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.pre-title-name {
+    font-size: 20px;
+    line-height: 24px;
+    color: #6933DC;
+}
+.answers .pre-title {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.answers .pre-title img {
+    margin-left: 15px;
+}
+.answers-user {
+    font-size: 20px;
+    line-height: 24px;
+}
+.answers-user span {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    color:#6933DC;
+}
+.answers-question {
+    margin-top: 60px;
+}
+
+input[type="radio"] {
+    pointer-events: none;
+}
